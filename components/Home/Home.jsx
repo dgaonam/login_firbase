@@ -3,11 +3,14 @@ import Buttons from "../Buttons/Buttons";
 import styles from "../Styles/Styles";
 import { Image } from "react-native";
 import imgHome from "../../assets/splash.png";
+import useUsers from "../../hooks/useUsers";
 
 const Home = ({ navigation }) => {
+  const users = useUsers();
   return (
     <View style={styles.container}>
       <Text style={{ flex: 1, fontSize: 25, fontWeight: "bold" }}>Bienvenidos practica .</Text>
+      <Text style={{ flex: 1, fontSize: 25, fontWeight: "bold" }}>Usuario: {users.email}</Text>
       <View style={{ flex: 8, width:"95%", alignContent: "center", alignSelf: "center" }}>
         <Image
           source={{ uri: imgHome }}

@@ -17,20 +17,21 @@ const Login = ({ navigation }) => {
     const users = useUsers();
 
     const Entrar = async () => {
-        let userId = await login(email, password);
-        users = {
-            operationType:userId.operationType,
-            providerId:userId.providerId,
-            email:userId.user.email,
-            uid:userId.user.uid
-        };
-        console.log(users);
-        if(userId!==null){
-                navigation.navigate('Home');
+        let userId = null;
+        
+        try {
+            userId= await login(email, password);
+            users.email=userId.user.email;
+            users.uid=userId.user.uid;
+            users.operationType=userId.operationType;
+            console.log(users);
+
+            navigation.navigate('Home');
             console.log(userId);
-         } else
-        {
-            alert("Usuario o contraseña incorrectos");
+
+        } catch (e) {
+            console.log( (e).message );
+            alert("Usuario o contraseña incorrectos " +  e.message);
         }
     };
 
@@ -39,7 +40,7 @@ const Login = ({ navigation }) => {
 
             <Input label={"Correo"} onChangeText={setEmail} />
 
-            <Input label={"Contraseña"} onChangeText={setPassword} />
+            <Input label={"Contraseña"} onChangeText={setPassword} password={true} />
 
             <Buttons onHandlerPress={Entrar} label={"Entrar"} icon={"send"} styles={styles} color={"#593275"} />
 

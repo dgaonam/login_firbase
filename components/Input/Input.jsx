@@ -1,7 +1,7 @@
 import { View, TextInput,Text } from "react-native";
 import styles from "../Styles/Styles";
 
-const Input = ({ label,placeholder,onChangeText}) => {
+const Input = ({ label,placeholder,onChangeText,password}) => {
     return (
             <View>
             <Text style={styles.inputLabel}>{label}</Text>
@@ -9,7 +9,11 @@ const Input = ({ label,placeholder,onChangeText}) => {
                 style={styles.input}
                 placeholder={placeholder}
                 onChangeText={onChangeText}
-                underlineColorAndroid="transparent" />
+                underlineColorAndroid="transparent"
+                password={password} 
+                secureTextEntry={password}
+
+                />
             </View>
     );
 };

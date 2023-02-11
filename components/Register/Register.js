@@ -35,8 +35,8 @@ const Register = ()=>{
             <Input label={"Apellidos"} onChangeText={setLastName}/>
             <Input label={"Correo"} onChangeText={setEmail}/>
             <Input label={"Confirma Correo"} onChangeText={setConfirmEmail} />
-            <Input label={"Contraseña"} onChangeText={setPassword} />
-            <Input label={"Confirma Contraseña"} onChangeText={setConfirmPassword} />
+            <Input label={"Contraseña"} onChangeText={setPassword} password={true}/>
+            <Input label={"Confirma Contraseña"} onChangeText={setConfirmPassword} password={true}/>
             <Buttons onHandlerPress={Registrar} label={"Enviar"} icon={"save"} styles={styles} color={"#593275"}/>
             <Text>{userId}</Text>
         </View>
