@@ -6,11 +6,11 @@
 # Registro <br>
 ![Captura desde 2023-02-11 17-15-43](https://user-images.githubusercontent.com/67657380/218285211-296d332b-cc11-4051-b687-84dddbfdf530.png)<br>
 
+# Confirmacion Registro <br>
+![Captura desde 2023-02-11 17-15-57](https://user-images.githubusercontent.com/67657380/218285213-d023a699-c72b-4610-80cc-bb8981de5996.png)<br>
 
-![Captura desde 2023-02-11 17-15-57](https://user-images.githubusercontent.com/67657380/218285213-d023a699-c72b-4610-80cc-bb8981de5996.png)
-
-
-![Captura desde 2023-02-11 17-16-21](https://user-images.githubusercontent.com/67657380/218285218-8f4b548d-d5f5-44d9-b15e-54c3615841f4.png)
+# Registro usuario Base de datos<br>
+![Captura desde 2023-02-11 17-16-21](https://user-images.githubusercontent.com/67657380/218285218-8f4b548d-d5f5-44d9-b15e-54c3615841f4.png)<br>
 
 
 ![Captura desde 2023-02-11 17-16-29](https://user-images.githubusercontent.com/67657380/218285219-e06cd399-103b-4d1f-9d49-43323d92c0fd.png)
