@@ -1,10 +1,10 @@
 # login_firbase
 
-![Captura desde 2023-02-11 17-15-00](https://user-images.githubusercontent.com/67657380/218285209-01a0f139-77b8-440c-a0e0-b97392863ab8.png)
+# Login <br>
+![Captura desde 2023-02-11 17-15-00](https://user-images.githubusercontent.com/67657380/218285209-01a0f139-77b8-440c-a0e0-b97392863ab8.png)<br>
 
-
-![Captura desde 2023-02-11 17-15-43](https://user-images.githubusercontent.com/67657380/218285211-296d332b-cc11-4051-b687-84dddbfdf530.png)
-
+# Registro <br>
+![Captura desde 2023-02-11 17-15-43](https://user-images.githubusercontent.com/67657380/218285211-296d332b-cc11-4051-b687-84dddbfdf530.png)<br>
 
 
 ![Captura desde 2023-02-11 17-15-57](https://user-images.githubusercontent.com/67657380/218285213-d023a699-c72b-4610-80cc-bb8981de5996.png)
