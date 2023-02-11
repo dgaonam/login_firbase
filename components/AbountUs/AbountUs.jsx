@@ -1,5 +1,5 @@
 import { Text, View,Image } from "react-native";
-import imgAbount from "../../assets/splash.png";
+import imgAbount from "../../assets/somos.png";
 import styles from "../Styles/Styles";
 
 const AbountUs = () => {
@@ -9,6 +9,7 @@ const AbountUs = () => {
             <Image
                 source={{ uri: imgAbount }}
                 style={{ flex: 1,  alignContent: "center" }}
+                resizeMode="contain"
             />
             </View>
             <Text style={{flex:5}}>La Enciclopedia de Ejemplos y todos sus contenidos pertenecen a Editorial Etecé, una productora de contenidos educativos que distribuye enciclopedias confiables, libres y gratuitas, para potenciar el aprendizaje de sus usuarios y fomentar su curiosidad.

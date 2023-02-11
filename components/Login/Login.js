@@ -28,7 +28,8 @@ const Login = ({ navigation }) => {
 
             navigation.navigate('Home');
             console.log(userId);
-
+            setEmail("");
+            setPassword("");
         } catch (e) {
             console.log( (e).message );
             alert("Usuario o contraseña incorrectos " +  e.message);

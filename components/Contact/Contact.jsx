@@ -6,7 +6,7 @@ import Buttons from "../Buttons/Buttons";
 import styles from "../Styles/Styles";
 
 import Input from "../Input/Input";
-import imgContact from "../../assets/splash.png";
+import imgContact from "../../assets/contactanos.jpg";
 const Contact = () => {
   return (
     <View style={{ flex: 10, flexDirection: "column", alignContent: "center", backgroundColor: "#FFFFFF" }}>
@@ -14,6 +14,7 @@ const Contact = () => {
         <Image
           source={{ uri: imgContact }}
           style={{ flex: 7,justifyContent:"space-evenly" }}
+          resizeMode={"contain"}
         />
       </View>
        <View style={{flex:4}}>

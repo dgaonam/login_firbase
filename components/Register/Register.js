@@ -25,7 +25,12 @@ const Register = ()=>{
     const Registrar= async()=>{
         let id = await userCreate(email,password);
         console.log(userId);
-           writeUserData("users",id,email,user,firstName,lastName);
+        writeUserData("users",id,email,user,firstName,lastName);
+        setEmail("");
+        setUser("");
+        setLastName("");
+        setFirstName("");
+        
     };
 
     return(
