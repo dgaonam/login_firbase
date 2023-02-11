@@ -12,9 +12,8 @@
 # Registro usuario Base de datos<br>
 ![Captura desde 2023-02-11 17-16-21](https://user-images.githubusercontent.com/67657380/218285218-8f4b548d-d5f5-44d9-b15e-54c3615841f4.png)<br>
 
-
-![Captura desde 2023-02-11 17-16-29](https://user-images.githubusercontent.com/67657380/218285219-e06cd399-103b-4d1f-9d49-43323d92c0fd.png)
-
+# usuario registrado para autenticar <br>
+![Captura desde 2023-02-11 17-16-29](https://user-images.githubusercontent.com/67657380/218285219-e06cd399-103b-4d1f-9d49-43323d92c0fd.png)<br>
 
 
 ![Captura desde 2023-02-11 17-17-04](https://user-images.githubusercontent.com/67657380/218285202-48eb67e9-742a-4e1e-b474-49b4fd623f87.png)
