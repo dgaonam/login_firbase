@@ -5,14 +5,28 @@ import { Image } from "react-native";
 import imgHome from "../../assets/home.jpg";
 import useUsers from "../../hooks/useUsers";
 
+import { readUserData } from '../../config/database';
+import { useEffect, useState } from "react";
+
 const Home = ({ navigation }) => {
+  const [user,setUser] = useState();
   const users = useUsers();
+
+  const searchUsers = async ()=>{
+    let us = await readUserData("users", users.uid);
+    setUser(us.firstName + " " + us.lastName);
+  }
+
+  useEffect(() => {
+    searchUsers();
+  }, []);
+
   return (
     <View style={styles.container}>
-      <Text style={{ flex: 1, fontSize: 25, fontWeight: "bold" }}>Bienvenidos practica .</Text>
-      <View style={{flexDirection: "row", flex:1}}>
-        <Text style={{ flex: 1, fontSize: 15, fontWeight: "bold" }}>Usuario: {users.email}</Text>
-        <Text style={{ flex: 1, fontSize: 15, fontWeight: "bold" }} onPress={()=>navigation.navigate('Login')}>Salir</Text>
+      <View style={{flexDirection: "column", flex:1}}>
+      <Text style={{ flex: 1, fontSize: 25, fontWeight: "bold" }}>Bienvenidos practica 7.</Text>
+        <Text style={{ flex: 1, fontSize: 12, fontWeight: "bold" }}>Usuario: {user} </Text>
+        <Text style={{ flex: 1, fontSize: 12, fontWeight: "bold", alignContent: "flex-start",color:"#000" }} onPress={()=>navigation.navigate('Login')}>Salir</Text>
       </View>
       <View style={{ flex: 8, width:"100%", alignContent: "center", alignSelf: "center" }}>
         <Image

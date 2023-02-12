@@ -34,8 +34,12 @@ const Login = ({ navigation }) => {
             setEmail("");
             setPassword("");
         } catch (e) {
-            console.log((e).message);
-            alert("Usuario o contraseña incorrectos " + e.message);
+            console.log(e.message);
+            if((e).message==="Firebase: Error (auth/invalid-email)."){
+                alert("Email incorrecto ");
+            }else if((e).message==="Firebase: Error (auth/wrong-password)."){
+                alert("Password incorrecto "); 
+            }
         }
     };
 
