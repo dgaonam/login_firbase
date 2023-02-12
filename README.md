@@ -1,26 +1,39 @@
 # login_firbase
 
 # Login <br>
-![Captura desde 2023-02-11 17-15-00](https://user-images.githubusercontent.com/67657380/218285209-01a0f139-77b8-440c-a0e0-b97392863ab8.png)<br>
+
+![Captura desde 2023-02-12 14-08-11](https://user-images.githubusercontent.com/67657380/218334505-a0812c78-6b57-4db2-a31f-d7682808e69c.png)<br>
 
 # Registro <br>
-![Captura desde 2023-02-11 17-15-43](https://user-images.githubusercontent.com/67657380/218285211-296d332b-cc11-4051-b687-84dddbfdf530.png)<br>
+![Captura desde 2023-02-12 14-08-41](https://user-images.githubusercontent.com/67657380/218334533-c861831c-8d1f-423e-84b7-5757fcebe03e.png)<br>
 
-# Confirmacion Registro <br>
-![Captura desde 2023-02-11 17-15-57](https://user-images.githubusercontent.com/67657380/218285213-d023a699-c72b-4610-80cc-bb8981de5996.png)<br>
+# Confirmacion de registro <br>
+![Captura desde 2023-02-12 14-10-17](https://user-images.githubusercontent.com/67657380/218334601-c397ff69-e8bf-4557-a75e-5438570d5c42.png)<br>
 
-# Registro usuario Base de datos<br>
-![Captura desde 2023-02-11 17-16-21](https://user-images.githubusercontent.com/67657380/218285218-8f4b548d-d5f5-44d9-b15e-54c3615841f4.png)<br>
+# Muestra informacion de base autentication <br>
+![Captura desde 2023-02-12 14-19-54](https://user-images.githubusercontent.com/67657380/218335015-dfe98b4c-abe8-4b9f-9170-4752186f8719.png)
+![Captura desde 2023-02-12 14-18-47](https://user-images.githubusercontent.com/67657380/218334966-8ffa368d-4ea2-4326-9ee3-6f854ed147c5.png)<br>
 
-# usuario registrado para autenticar <br>
-![Captura desde 2023-02-11 17-16-29](https://user-images.githubusercontent.com/67657380/218285219-e06cd399-103b-4d1f-9d49-43323d92c0fd.png)<br>
+# Email invalido <br>
+![Captura desde 2023-02-12 14-11-30](https://user-images.githubusercontent.com/67657380/218334676-7b446978-a646-473d-be2f-f0e3054d79f6.png)<br>
 
+# Password Incorrecto <br>
+![Captura desde 2023-02-12 14-13-21](https://user-images.githubusercontent.com/67657380/218334761-4292e9be-1a58-4f68-bede-8a8414d91c69.png)<br>
 
-![Captura desde 2023-02-11 17-17-04](https://user-images.githubusercontent.com/67657380/218285202-48eb67e9-742a-4e1e-b474-49b4fd623f87.png)
+# Usuario No existe <br>
+![Captura desde 2023-02-12 14-14-04](https://user-images.githubusercontent.com/67657380/218334787-06f351cc-31bc-4a46-87d0-c20d3c24677f.png)<br>
 
+# Pantalla inicio <br>
+![Captura desde 2023-02-12 14-15-12](https://user-images.githubusercontent.com/67657380/218334826-2ae6388e-5bc3-4fce-87bd-8537901d9b0e.png)<br>
 
-![Captura desde 2023-02-11 17-17-13](https://user-images.githubusercontent.com/67657380/218285222-c5863b6d-5ae3-422f-ad6e-5d82b26dcde0.png)
+# Cantactanos <br>
+![Captura desde 2023-02-12 14-15-56](https://user-images.githubusercontent.com/67657380/218334847-5e869739-1f83-46b2-85c8-8d8a41a7cbe0.png)<br>
 
-![Captura desde 2023-02-11 17-17-27](https://user-images.githubusercontent.com/67657380/218285228-c64c175d-ee6d-421b-809b-946623297b3d.png)
+# Registro de informacion contactanos<br>
+![Captura desde 2023-02-12 14-21-16](https://user-images.githubusercontent.com/67657380/218335064-6662e4a3-0d00-433f-82e1-916cd2434e78.png)
 
+# Nosotros <br>
+![Captura desde 2023-02-12 14-16-30](https://user-images.githubusercontent.com/67657380/218334869-1d6acb0a-8da9-4413-8e65-f735acaf62e4.png)<br>
 
+# Camara <br>
+![Captura desde 2023-02-12 14-17-02](https://user-images.githubusercontent.com/67657380/218334903-7fe3d55a-1f20-4048-b43e-fd82e3ea92e4.png)
