@@ -39,7 +39,12 @@ const Login = ({ navigation }) => {
                 alert("Email incorrecto ");
             }else if((e).message==="Firebase: Error (auth/wrong-password)."){
                 alert("Password incorrecto "); 
+            }else if((e).message==="Firebase: Error (auth/user-not-found)."){
+                alert("No existe el usuario "); 
             }
+
+            
+
         }
     };
 
