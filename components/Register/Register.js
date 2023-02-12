@@ -6,7 +6,7 @@ import Input from "../Input/Input";
 import styles from "../Styles/Styles";
 
 import { writeUserData } from '../../config/database';
-import { async } from "@firebase/util";
+
 
 const Register = ()=>{
 

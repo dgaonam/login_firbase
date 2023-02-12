@@ -23,20 +23,23 @@ const user = {
 };
 
 export default function App() {
-
-  useEffect(() => {
-    // writeUserData("users", "1", "dgaonam", "isc.gaona@gmail.com", "Daniel Aleajdro", "Gaona", "password");
-  }, []);
-
   return (
     <UserContext.Provider value={user}>
       <NavigationContainer styles={styles.container}>
-        <Stack.Navigator initialRouteName="Login" >
+        <Stack.Navigator initialRouteName="Login" screenOptions={{
+        headerTitleAlign: 'center',
+        headerStyle: {
+          backgroundColor: '#593275',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+        },
+      }} >
 
           <Stack.Screen
             name="register"
             options={{ title: 'Registro' }}
-
             component={Register}
           />
 
